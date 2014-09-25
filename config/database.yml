@@ -23,9 +23,8 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  reconnect: false
-  database: people_production
-  pool: 5
+  database: firstrails
+  host: firstrails.chaiz5tvxtxm.us-east-1.rds.amazonaws.com
+  port: 3306
   username: root
-  password:
-  socket: /tmp/mysql.sock
+  password: racing26
